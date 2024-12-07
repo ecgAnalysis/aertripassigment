@@ -1,0 +1,105 @@
+.list {
+    padding: 0;
+  }
+  
+  .airportItem {
+    padding: 12px 16px;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .airportCode {
+    min-width: 48px;
+  }
+  
+  .airportDetails span {
+    color: #666;
+  }
+  
+  /* Scrollbar Styling */
+  .dropdown::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .dropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .dropdown::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  .dropdown::-webkit-scrollbar-thumb:hover {
+    background: #666;
+  }
+
+  .suggestions_list{
+    position: absolute;
+    z-index: 1;
+    margin-left: 0;
+    background: white;
+    margin-top: 70px;
+    box-shadow: 0px 1px 4px 3px #8080801a;
+    border-radius: 10px;
+  }
+
+  .suggestions_list {
+    position: absolute;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 350px;
+    width: 100%;
+  }
+  
+  .list {
+    margin: 0;
+    padding: 0;
+    max-height: 60vh;
+    min-width: 350px;
+    overflow-y: auto;
+  }
+  
+  .airportItem {
+    padding: 10px;
+  }
+  
+  .airportCode {
+    margin-right: 10px;
+  }
+  
+  .airportDetails {
+    color: gray;
+  }
+
+  .custom_input_area{
+    display: flex ;
+        align-content: flex-end;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+  }
+  
+  .custom_input_area input{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+  }
+
+  .custom_input_area .MuiFormControl-root{
+    width: 260px !important;
+  }
+   .airport_code{
+    position: relative;
+    margin-left: -30px;
+    margin-bottom: 19px;
+    color: gray;
+    font-size: small;
+  }
+
+  .autoSuggestContainer::before{
+    border: none !important;
+}
+.autoSuggestContainer::after{
+      border-bottom: 2px solid #0ac6a0 !important;
+}

@@ -1,0 +1,36 @@
+.flex{
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+.flex .icon_sort{
+    color: #02ca9b;
+}
+
+.card_sort button{
+    background: #cccccc;
+    border: none;
+    color: black;
+    font-weight: 300;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+}
+
+.card_sort_reset button{
+    color: gray;
+    border-radius: 25px;
+}
+
+.sort_fare{
+    max-width: 200px;
+    position: absolute;
+    margin-top: -78px;
+    right: 0px;
+    margin-right: 260px;
+    min-width: 180px;
+}
+ 
